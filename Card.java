@@ -18,6 +18,18 @@ public class Card{
 		this.suite = c.getSuite();
 	}
 
+	public String getPlayerCard(){
+		String s = new String();
+		String ss = new String();
+		s = String.valueOf(this.getValue());
+		ss = String.valueOf(this.getSuite());
+
+		String sss = new String();
+		sss = s + ss;
+		
+		return sss;
+	}
+
 	public char getValue(){
 		return this.value;
 	}
