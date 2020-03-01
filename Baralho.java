@@ -1,7 +1,8 @@
 import java.util.*;
 
+
 public class Baralho {
-  ArrayList deck = new ArrayList<>();
+    ArrayList<Card> deck = new ArrayList<>();
 
   public Baralho() {
     int j, k = 2;
